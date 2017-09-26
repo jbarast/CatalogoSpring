@@ -22,7 +22,7 @@ public class Usuario implements Serializable {
 	// atributos
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private long id;
+	private Long id;
 
 	private ROL rol;
 	private String usuario;
