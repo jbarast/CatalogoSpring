@@ -15,7 +15,7 @@ import com.jbarast.CatalogoSpring.models.Producto;
  *          Created 26/09/2017
  *
  */
-@RepositoryRestResource(collectionResourceRel = "Producto", path = "productos")
+@RepositoryRestResource(collectionResourceRel = "producto", path = "productos")
 public interface ProductoRepository extends PagingAndSortingRepository<Producto, Long> {
 
 }

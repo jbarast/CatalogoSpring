@@ -15,7 +15,7 @@ import com.jbarast.CatalogoSpring.models.ROL;
  *
  *          Created 26/09/2017
  */
-@RepositoryRestResource(collectionResourceRel = "ROL", path = "roles")
+@RepositoryRestResource(collectionResourceRel = "role", path = "roles")
 public interface RolRepository extends PagingAndSortingRepository<ROL, Long> {
 
 }

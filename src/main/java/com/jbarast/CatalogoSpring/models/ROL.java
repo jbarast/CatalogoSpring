@@ -7,6 +7,7 @@ import javax.persistence.Id;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * Clase ROL
@@ -17,8 +18,9 @@ import lombok.Data;
  *          Created ...
  */
 @Data
-@AllArgsConstructor
 @Entity
+@NoArgsConstructor
+@AllArgsConstructor
 public class ROL {
 
 	// atributos.

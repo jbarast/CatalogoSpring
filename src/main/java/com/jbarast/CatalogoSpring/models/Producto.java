@@ -9,6 +9,7 @@ import javax.persistence.Id;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * Clase producto
@@ -17,8 +18,9 @@ import lombok.Data;
  * @version 18/09/2017
  */
 @Data
-@AllArgsConstructor
 @Entity
+@NoArgsConstructor
+@AllArgsConstructor
 public class Producto {
 
 	// atributos
