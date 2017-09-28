@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  *
  */
 @Controller
-@RequestMapping("/app/roles")
+@RequestMapping("/catalogo/roles")
 public class RolController {
 
 	@GetMapping
